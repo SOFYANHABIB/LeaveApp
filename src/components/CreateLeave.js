@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useRef } from 'react';
 
 import {useState} from 'react'
 
@@ -11,6 +11,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Table from 'react-bootstrap/Table';
 
 import {Button} from 'react-bootstrap';
+
+import emailjs from '@emailjs/browser';
 
  
 
@@ -104,6 +106,18 @@ const CreateLeave = () => {
 
     })
 
+    const form = useRef();
+
+  const sendEmail = () => {
+
+    emailjs.sendForm('service_g0lbnfk', 'template_qe18nzf', form.current, '7k8CyFUZgUr0Jk1bF')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+
    
 
  
@@ -193,7 +207,8 @@ const CreateLeave = () => {
 
         .then((res)=> {alert("Leave Request sent");
 
-       
+
+                        sendEmail();
 
                         setState({...state, id: "",
 
@@ -319,7 +334,7 @@ const CreateLeave = () => {
 
         <h4>Leave Request</h4>
 
-        <form  className="form" onSubmit={(event)=> handleSubmit(event)}>
+        <form  ref={form} className="form" onSubmit={(event)=> handleSubmit(event)}>
 
         <table>
 

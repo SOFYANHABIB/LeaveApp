@@ -1,257 +1,129 @@
 {
-
-    "users": [
-  
-      {
-  
-        "id": "1000",
-  
-        "empName": "Mehdi Habib",
-  
-        "empEmail": "mehdi.habib@infosys.com",
-  
-        "password": "0000",
-  
-        "role": "employee",
-  
-        "leaveType": "sickLeave",
-  
-        "typeDay": "halfDay",
-  
-        "fromDate": "",
-  
-        "toDate": "",
-  
-        "reason": "Business",
-  
-        "mngrEmail": "khalid.h@infosys.com",
-  
-        "annLeave": {
-  
-          "credits": "10",
-  
-          "debits": "4",
-  
-          "balance": "6",
-  
-          "unit": "day"
-  
-        },
-  
-        "sickLeave": {
-  
-          "credits": "3",
-  
-          "debits": "0",
-  
-          "balance": "3",
-  
-          "unit": "day"
-  
-        }
-  
+  "users": [
+    {
+      "id": "1000",
+      "empName": "Mehdi Habib",
+      "empEmail": "mehdi.habib@infosys.com",
+      "password": "0000",
+      "role": "employee",
+      "leaveType": "sickLeave",
+      "typeDay": "halfDay",
+      "fromDate": "2023-04-15",
+      "toDate": "2023-04-25",
+      "reason": "Holiday",
+      "mngrEmail": "mehdi.habib@infosys.com",
+      "annLeave": {
+        "credits": "10",
+        "debits": "4",
+        "balance": "6",
+        "unit": "day"
       },
-  
-      {
-  
-        "id": "2000",
-  
-        "empName": "Jack",
-  
-        "empEmail": "jack@infosys.com",
-  
-        "password": "5555",
-  
-        "role": "employee",
-  
-        "leaveType": "annualLeave",
-  
-        "typeDay": "halfDay",
-  
-        "fromDate": "2023-04-05",
-  
-        "toDate": "2023-04-10",
-  
-        "reason": "Holiday",
-  
-        "mngrEmail": "Khalid.h@infosys.com",
-  
-        "annLeave": {
-  
-          "credits": "20",
-  
-          "debits": "12",
-  
-          "balance": "8",
-  
-          "unit": "day"
-  
-        },
-  
-        "sickLeave": {
-  
-          "credits": "4",
-  
-          "debits": "2",
-  
-          "balance": "2",
-  
-          "unit": "day"
-  
-        }
-  
-      },
-  
-      {
-  
-        "id": "3000",
-  
-        "empName": "Khalid",
-  
-        "empEmail": "khalid.h@infosys.com",
-  
-        "password": "8888",
-  
-        "role": "manager",
-  
-        "leaveType": "annualLeave",
-  
-        "typeDay": "fullDay",
-  
-        "fromDate": "2023-03-28",
-  
-        "toDate": "2023-03-31",
-  
-        "reason": "Business",
-  
-        "mngrEmail": "ravi@infosys.com",
-  
-        "annLeave": {
-  
-          "credits": "12",
-  
-          "debits": "5",
-  
-          "balance": "7",
-  
-          "unit": "day"
-  
-        },
-  
-        "sickLeave": {
-  
-          "credits": "3",
-  
-          "debits": "1",
-  
-          "balance": "2",
-  
-          "unit": "day"
-  
-        }
-  
-      },
-  
-      {
-  
-        "id": "4000",
-  
-        "empName": "John Doe",
-  
-        "empEmail": "john@infosys.com",
-  
-        "password": "1111",
-  
-        "role": "employee",
-  
-        "leaveType": "annualLeave",
-  
-        "typeDay": "fullDay",
-  
-        "fromDate": "2023-03-28",
-  
-        "toDate": "2023-03-31",
-  
-        "reason": "Business",
-  
-        "mngrEmail": "ravi@infosys.com",
-  
-        "annLeave": {
-  
-          "credits": "10",
-  
-          "debits": "4",
-  
-          "balance": "6",
-  
-          "unit": "day"
-  
-        },
-  
-        "sickLeave": {
-  
-          "credits": "2",
-  
-          "debits": "0",
-  
-          "balance": "2",
-  
-          "unit": "day"
-  
-        }
-  
-      },
-  
-      {
-  
-        "id": "5000",
-  
-        "empName": "Amy Lee",
-  
-        "empEmail": "amy@infosys.com",
-  
-        "password": "2222",
-  
-        "role": "employee",
-  
-        "leaveType": "annualLeave",
-  
-        "typeDay": "fullDay",
-  
-        "fromDate": "2023-03-28",
-  
-        "toDate": "2023-03-31",
-  
-        "reason": "Business",
-  
-        "mngrEmail": "khalid.h@infosys.com",
-  
-        "annLeave": {
-  
-          "credits": "20",
-  
-          "debits": "5",
-  
-          "balance": "15",
-  
-          "unit": "day"
-  
-        },
-  
-        "sickLeave": {
-  
-          "credits": "4",
-  
-          "debits": "0",
-  
-          "balance": "0",
-  
-          "unit": "day"
-  
-        }
-  
+      "sickLeave": {
+        "credits": "3",
+        "debits": "0",
+        "balance": "3",
+        "unit": "day"
       }
-  
-    ]
-  
-  }
+    },
+    {
+      "id": "2000",
+      "empName": "Jack",
+      "empEmail": "jack@infosys.com",
+      "password": "5555",
+      "role": "employee",
+      "leaveType": "annualLeave",
+      "typeDay": "halfDay",
+      "fromDate": "2023-04-05",
+      "toDate": "2023-04-10",
+      "reason": "Holiday",
+      "mngrEmail": "Khalid.h@infosys.com",
+      "annLeave": {
+        "credits": "20",
+        "debits": "12",
+        "balance": "8",
+        "unit": "day"
+      },
+      "sickLeave": {
+        "credits": "4",
+        "debits": "2",
+        "balance": "2",
+        "unit": "day"
+      }
+    },
+    {
+      "id": "3000",
+      "empName": "Khalid",
+      "empEmail": "khalid.h@infosys.com",
+      "password": "8888",
+      "role": "manager",
+      "leaveType": "annualLeave",
+      "typeDay": "fullDay",
+      "fromDate": "2023-03-28",
+      "toDate": "2023-03-31",
+      "reason": "Business",
+      "mngrEmail": "ravi@infosys.com",
+      "annLeave": {
+        "credits": "12",
+        "debits": "5",
+        "balance": "7",
+        "unit": "day"
+      },
+      "sickLeave": {
+        "credits": "3",
+        "debits": "1",
+        "balance": "2",
+        "unit": "day"
+      }
+    },
+    {
+      "id": "4000",
+      "empName": "John Doe",
+      "empEmail": "john@infosys.com",
+      "password": "1111",
+      "role": "employee",
+      "leaveType": "annualLeave",
+      "typeDay": "fullDay",
+      "fromDate": "2023-03-28",
+      "toDate": "2023-03-31",
+      "reason": "Business",
+      "mngrEmail": "ravi@infosys.com",
+      "annLeave": {
+        "credits": "10",
+        "debits": "4",
+        "balance": "6",
+        "unit": "day"
+      },
+      "sickLeave": {
+        "credits": "2",
+        "debits": "0",
+        "balance": "2",
+        "unit": "day"
+      }
+    },
+    {
+      "id": "5000",
+      "empName": "Amy Lee",
+      "empEmail": "amy@infosys.com",
+      "password": "2222",
+      "role": "employee",
+      "leaveType": "annualLeave",
+      "typeDay": "fullDay",
+      "fromDate": "2023-03-28",
+      "toDate": "2023-03-31",
+      "reason": "Business",
+      "mngrEmail": "khalid.h@infosys.com",
+      "annLeave": {
+        "credits": "20",
+        "debits": "5",
+        "balance": "15",
+        "unit": "day"
+      },
+      "sickLeave": {
+        "credits": "4",
+        "debits": "0",
+        "balance": "0",
+        "unit": "day"
+      }
+    }
+  ]
+}
